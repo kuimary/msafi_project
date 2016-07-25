@@ -2,14 +2,14 @@ package msafi_project.model;
 
 import java.util.Date;
 
-public class Employees{
-    
-private int id,identification_number,nok_identification_number;
-private Date date_of_birth;
-private String user_name,password,full_name,email,residence,mobile_numbe,nok_name,nok_mobile,nok_residence;
+public class Employees {
 
-    public Employees( int identification_number, int nok_identification_number, Date date_of_birth, String user_name, String password, String full_name, String email, String residence, String mobile_numbe, String nok_name, String nok_mobile, String nok_residence) {
-       
+    private int id, identification_number, nok_identification_number;
+    private Date date_of_birth;
+    private String user_name, password, full_name, email, residence, mobile_numbe, nok_name, nok_mobile, nok_residence;
+
+    public Employees(int identification_number, int nok_identification_number, Date date_of_birth, String user_name, String password, String full_name, String email, String residence, String mobile_numbe, String nok_name, String nok_mobile, String nok_residence) {
+
         this.identification_number = identification_number;
         this.nok_identification_number = nok_identification_number;
         this.date_of_birth = date_of_birth;
@@ -75,6 +75,5 @@ private String user_name,password,full_name,email,residence,mobile_numbe,nok_nam
     public String getNok_residence() {
         return nok_residence;
     }
-    
-    
+
 }

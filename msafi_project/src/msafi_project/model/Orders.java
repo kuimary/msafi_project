@@ -6,14 +6,14 @@ public class Orders{
     
 private int order_id;
 private Date date_time;
-private String client_name,customer_name,order_name,price,residence;
+private String client_name,Employee_name,order_name,price,residence;
 private boolean confirmed;
 
-    public Orders(int order_id, Date date_time, String client_name, String customer_name, String order_name, String price, String residence, boolean confirmed) {
+    public Orders(int order_id, Date date_time, String client_name, String Employee_name, String order_name, String price, String residence, boolean confirmed) {
         this.order_id = order_id;
         this.date_time = date_time;
         this.client_name = client_name;
-        this.customer_name = customer_name;
+        this.Employee_name = Employee_name;
         this.order_name = order_name;
         this.price = price;
         this.residence = residence;
@@ -32,8 +32,8 @@ private boolean confirmed;
         return client_name;
     }
 
-    public String getCustomer_name() {
-        return customer_name;
+    public String getEmployee_name() {
+        return Employee_name;
     }
 
     public String getOrder_name() {
