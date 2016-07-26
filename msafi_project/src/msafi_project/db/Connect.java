@@ -25,14 +25,17 @@ public class Connect {
     
     
     
-   public void db_connect(){
+   public Connection db_connect(){
         try {
             conn= DriverManager.getConnection(DB_CONNECT, USERNAME, PASSWORD);
+            if(conn!=null){
             System.out.println("connection opened");
+           return conn;
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
-   
+   return null;
    }
    public void close_connection(){
         try {

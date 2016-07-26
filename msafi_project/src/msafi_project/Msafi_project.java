@@ -7,9 +7,9 @@ package msafi_project;
 
 import java.util.Date;
 import msafi_project.db.Connect;
+import msafi_project.db.Create;
 import msafi_project.model.Employees;
 import msafi_project.model.Orders;
-import msafi_project.model.Service;
 import msafi_project.model.Users;
 
 /**
@@ -47,7 +47,10 @@ private static String new_user_name="jacone keya",user_password="wtfbitch2",user
 //            employee_data();
 //            orders_data();
             Connect connect = new Connect();
+           
             connect.db_connect();
+            new Create();
+            
             connect.close_connection();
     
     }
@@ -90,7 +93,7 @@ private static String new_user_name="jacone keya",user_password="wtfbitch2",user
        
        } 
        public static void users_data(){
-           Users use = new Users(id,user_identification_number,user_date_of_birth,new_user_name,user_password,user_full_name,user_email,user_residence,user_mobile_number);
+           Users use = new Users(user_identification_number,user_date_of_birth,new_user_name,user_password,user_full_name,user_email,user_residence,user_mobile_number);
 
        
        } 
