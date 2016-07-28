@@ -32,7 +32,7 @@ private static boolean confirmed;
 
 // TESTING Users
 private static int id,user_identification_number=90748;
-private static Date user_date_of_birth=new Date();
+private static String user_date_of_birth="today";
 private static String new_user_name="jacone keya",user_password="wtfbitch2",user_full_name="jack k sakwaa",user_email="jackqw@gmail.com",user_residence="roysambu",user_mobile_number="0724727999";
 
 
@@ -48,10 +48,10 @@ private static String new_user_name="jacone keya",user_password="wtfbitch2",user
 //            orders_data();
             Connect connect = new Connect();
            
-            connect.db_connect();
-            new Create();
-            
-            connect.close_connection();
+        
+         
+//            new Create(connect.db_connect());
+                        connect.close_connection();
     
     }
         public static void employee_data(){
