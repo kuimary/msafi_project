@@ -1,0 +1,17 @@
+INSERT INTO `service` VALUES (1, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (2, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (3, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (4, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (5, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (6, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (7, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (8, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (9, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (10, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (11, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (12, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (13, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (14, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (15, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (16, 'momo', 'Stripping', '78900');
+INSERT INTO `service` VALUES (17, 'momo', 'Stripping', '78900');

@@ -5,11 +5,11 @@ import java.util.Date;
 public class Orders{
     
 private int order_id;
-private Date date_time;
+private String date_time;
 private String client_name,Employee_name,order_name,price,residence;
-private boolean confirmed;
+private String confirmed;
 
-    public Orders(int order_id, Date date_time, String client_name, String Employee_name, String order_name, String price, String residence, boolean confirmed) {
+    public Orders(int order_id, String date_time, String client_name, String Employee_name, String order_name, String price, String residence, String confirmed) {
         this.order_id = order_id;
         this.date_time = date_time;
         this.client_name = client_name;
@@ -24,7 +24,7 @@ private boolean confirmed;
         return order_id;
     }
 
-    public Date getDate_time() {
+    public String getDate_time() {
         return date_time;
     }
 
@@ -48,7 +48,7 @@ private boolean confirmed;
         return residence;
     }
 
-    public boolean isConfirmed() {
+    public String isConfirmed() {
         return confirmed;
     }
 
